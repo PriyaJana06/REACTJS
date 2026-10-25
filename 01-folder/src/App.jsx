@@ -13,7 +13,7 @@ function App() {   // App itself is a component.
       <p>inside app component we have:</p>
       <Title/>
       <Description/>
-    </div>
+    </div> 
   );
 }
 
