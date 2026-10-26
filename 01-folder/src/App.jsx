@@ -1,21 +1,14 @@
 import "./App.css";
 // import
 import Title from "./Title.jsx";
+import ProductList from "./ProductList.jsx";
 
 function Description(){
   return <h3>I am the Description!</h3>;
 }
 
 function App() {   // App itself is a component.
-  return (
-    // React Fragment - reduces unnecessary nodes in DOM
-    <> 
-      <h1>This is my app component</h1>
-      <p>inside app component we have:</p>
-      <Title/>
-      <Description/>
-    </> 
-  );
+  return <ProductList/>;
 }
 
-export default App
+export default App;
