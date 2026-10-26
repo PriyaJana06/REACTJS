@@ -1,3 +1,4 @@
+// Structuring Components
 function Product(){
     return (
         <div>
