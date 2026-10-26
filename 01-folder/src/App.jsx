@@ -8,7 +8,7 @@ function Description(){
 
 function App() {   // App itself is a component.
   return (
-    <div>
+    <div className="namebox"> 
       <h1>This is my app component</h1>
       <p>inside app component we have:</p>
       <Title/>
