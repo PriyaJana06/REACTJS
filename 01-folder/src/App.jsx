@@ -8,7 +8,7 @@ function Description(){
 
 function App() {   // App itself is a component.
   return (
-    // React Fragment
+    // React Fragment - reduces unnecessary nodes in DOM
     <> 
       <h1>This is my app component</h1>
       <p>inside app component we have:</p>
