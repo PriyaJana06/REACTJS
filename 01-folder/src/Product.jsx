@@ -3,7 +3,7 @@ import "./Product.css";
 
 // Structuring Components
 function Product({title, price = 100}){
-    // console.log(props.title);  // object
+    // console.log(props.title);  // object->props
     return (
         <div className="Product">
             <h3>{title}</h3>
